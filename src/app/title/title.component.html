@@ -1,0 +1,10 @@
+<h1 (click)="increment()">
+  title works! {{title + title2}} {{counter}} <br>
+  {{greet()}} <br>
+</h1>
+
+<button>Go!</button>
+<button disabled>Go!</button>
+<button [disabled]="isOff"
+[style.color]="color" [style.fontSize]="size">
+Go!</button>
